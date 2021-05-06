@@ -9,4 +9,4 @@
 
 * Built-in functions
 
-# Instructor: Prof. Dr. Betül KAN KILINÇ
+### Instructor: Prof. Dr. Betül KAN KILINÇ
