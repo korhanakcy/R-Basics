@@ -6,7 +6,7 @@ q()
 
 # Data Types :vectors, factors, matrices, lists, arrays, data frames
 
-# create a numeric vector using the c() function 
+# create a numeric vector using c() function 
 c(1, 2, 3)  # press ctrl+Enter
 
 #or
