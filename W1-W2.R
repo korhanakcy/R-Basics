@@ -74,7 +74,7 @@ y <- c(10,20,30,40,50)
 y <- C(10,20,30,40,c(4,6),50)
 # Error in C(10, 20, 30, 40, c(4, 6), 50) : 
 #   nesne faktör olarak yorumlanamıyor
-# Answer: R is case-sensitive. Hence use lowercase c() instead of C(). Uppercase C() functions does not defined. R has no idea about C() but c().
+# Answer: R is case-sensitive. Hence use lowercase c() instead of C(). Uppercase C() function is not defined. R has no idea about what C() is but c().
 
 y <- c(10,20,30,40,50)
  
