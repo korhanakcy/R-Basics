@@ -39,7 +39,7 @@ c(1,2,3)  # will not be working if you type C(1,2,3) by mistake!
 # Given a vector, you can determine its type with typeof(), or check if it’s a specific type with an “is” function: is.character(), is.double(), is.integer(), is.logical(), or, more generally, is.atomic().
  
  
-#Assignment: There are three ways to assign an object in R:
+#A ssignment: There are three ways to assign an object in R:
 #  1. <-    2. =   3. assign()
 
 x1 <- c(2.1, 5, -4, 1, 5)
@@ -52,7 +52,7 @@ y <- c(x1, 10, 1/4)
  
  x <- 80
  x
-# [1] 80
+# [1] 80.  # Here [1] indicates the first (and the only one) result of you command.
 
 
 # c()and combining vectors
@@ -64,6 +64,8 @@ y <- c(10,20,30,40,50)
 # [1] 10 20 30 40 50  4  6
  y <- c(10,20,30,40,c(4,6),50)
  y
+
+# How to access Elements of a vector?
 # [1] 10 20 30 40  4  6 50
  y[4]
 # [1] 40
