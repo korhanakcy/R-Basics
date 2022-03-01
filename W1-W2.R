@@ -36,19 +36,23 @@ c(1,2,3)  # will not be working if you type C(1,2,3) by mistake!
   # converts doubles to integers
  as.integer()  
 
-# Given a vector, you can determine its type with typeof(), or check if it’s a specific type with an “is” function: is.character(), is.double(), is.integer(), is.logical(), or, more generally, is.atomic().
+# Given a vector, you can determine its type with typeof(), or check if it’s a specific type with an “is” function: 
+# is.character(), is.double(), is.integer(), is.logical(), or, more generally, is.atomic().
  
  
-#A ssignment: There are three ways to assign an object in R:
-#  1. <-    2. =   3. assign()
+# Assignment: There are three ways to assign an object in R:
+#  1. <-   
+#  2. =   
+#  3. assign()
 
+# Examples
 x1 <- c(2.1, 5, -4, 1, 5)
 x2 = c(2.1, 5, -4, 1, 5)
 assign("x3", c(2.1, 5, -4, 1, 5))
 
 y <- c(x1, 10, 1/4)
 
- rm(x)  # built-in function
+ rm(x1)  # a built-in function (onceden tanımlanmış fonk.), that removes object x from the memory.
  
  x <- 80
  x
@@ -181,6 +185,12 @@ y <- c(10,20,30,40,50)
  # [1]  3  3  3  3  3  1  3  5  7  9 11 13 15 17 19
  c(rep(3,5),seq(1,20,by = 2))
  # [1]  3  3  3  3  3  1  3  5  7  9 11 13 15 17 19
+
+
+# Types of parantehesis:
+# ()  for functions
+# []  for indexing
+# {}  for loops
  ################################################################
  
  
